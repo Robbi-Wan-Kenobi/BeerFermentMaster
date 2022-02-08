@@ -14,18 +14,18 @@ enum Action {
 
 class WebServer
 {
-public:
-	WebServer();
-	WebServer(byte macAdress[], IPAddress &ipAdress);
-	~WebServer();
-	void Start();
-	void WebSiteBuildLoop(ValueList valueLogger, Action currentStatus, float currentTemperature, unsigned int timesTurnedOnHeating, unsigned int timesTurnedOnCooling);
-	int SetWebParameters();
-private:
-	ValueList webParameter;
-	byte *mac;
-	IPAddress *ip;
+	public:
+		WebServer();
+		WebServer(byte macAdress[], IPAddress &ipAdress);
+		~WebServer();
+		void Start();
+		void WebSiteBuildLoop(ValueList valueLogger, Action currentStatus, float currentTemperature, unsigned int timesTurnedOnHeating, unsigned int timesTurnedOnCooling);
+		int SetWebParameters();
+	private:
+		ValueList webParameter;
+		byte *mac;
+		IPAddress *ip;
 	
-	EthernetServer server;
+		EthernetServer server;
 };
 
