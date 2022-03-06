@@ -5,9 +5,7 @@ This is an Arduino Uno Project.
 
 It Controls the temperature of fermenting beer 
 that is placed in a refrigerator together with a heater, both controlled by this application
-Together they regulate to the desired temperature. 
-
-Additionally it serves a website that shows the temperature history.
+Together they regulate to the desired temperature. Additionally it serves a website that shows the temperature history.
 
 It involves a
 - OneWire Dallas DS18B20 temperature sensor 
@@ -16,7 +14,7 @@ It involves a
 
 The webpage is only for diagnostics.
 It shows the current, highest, lowest and average temperature
-together with a historical list of temperatures
+together with a historical list of temperatures.
 
 ![BeerFermenter](https://user-images.githubusercontent.com/19152655/156921459-bcc95bba-d7a7-4ec9-b0f0-aabb09e5f5fe.png)
 
