@@ -16,8 +16,8 @@ The webpage is only for diagnostics.
 It shows the current, highest, lowest and average temperature
 together with a historical list of temperatures.
 
-![BeerFermenter](https://user-images.githubusercontent.com/19152655/156921459-bcc95bba-d7a7-4ec9-b0f0-aabb09e5f5fe.png)
 
+<img src="https://user-images.githubusercontent.com/19152655/156921459-bcc95bba-d7a7-4ec9-b0f0-aabb09e5f5fe.png" width="449" height="553">
 
 
 It is a Visual Studio project but you can also open it in the Arduino IDE.
