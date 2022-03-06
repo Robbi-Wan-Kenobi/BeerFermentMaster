@@ -25,11 +25,11 @@ together with a historical list of temperatures
 It is a Visual Studio project but you can also open it in the Ardrino IDE.
 
 All parameters are controlled in WebServer_v1.ino 
-ONE_WIRE_BUS            Pin nr for onewire DS18B20 temperature sesnor
-PINNR_HEAT_RELAY        Pin nr for heater
-PINNR_COOL_RELAY        Pin nr for cooler
-temperatureForHeating   If temperature is below this value heating turns on
-temperatureForCooling   If temperature is below this value cooling turns on
-IPAddress ip            IP address of shield, there is a link included on how to configure DHCP
+- ONE_WIRE_BUS            Pin nr for onewire DS18B20 temperature sesnor
+- PINNR_HEAT_RELAY        Pin nr for heater
+- PINNR_COOL_RELAY        Pin nr for cooler
+- temperatureForHeating   If temperature is below this value heating turns on
+- temperatureForCooling   If temperature is below this value cooling turns on
+- IPAddress ip            IP address of shield, there is a link included on how to configure DHCP
 
 ValueList is a class that stores a configrable amount of floats, a rolling avarage is calculates after a new value is added.
